@@ -600,7 +600,7 @@ curcontent["Oplata"] = {
 			<div class="qiwi-rub">₽</div>\
 			<input type="number" placeholder="Сумма" id="fk-donation-amount" name="oa" required="" value="">\
 			<input type="hidden" id="fk-donation-sign" name="s" value="">\
-			<input type="hidden" id="enot-donation-id" name="o" value="<?php echo 'asd'; ?>">\
+			<input type="hidden" id="enot-donation-id" name="o" value="123123123123">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
 			<input type="hidden" name="m" value="37757">\
 			<input type="hidden" name="c" value="Пополнение баланса">\
