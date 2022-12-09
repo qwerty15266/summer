@@ -32,7 +32,7 @@ curcontent["Oplata"] = {
 \
 \<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://enot.io/pay">\
 <div class="qiwi-inp-oplata" id="qiwi-inp-other">\
-	<div class="qiwi-widget-title">Enot.io<br><p>криптовалюта и сбп</p></div>\
+	<div class="qiwi-widget-title">LAVA.ru<br><p>криптовалюта и сбп</p></div>\
 	<div class="qiwi-inp-box">\
 			<label for="fk-donation-amount" class="qiwi-label">Cумма</label>\
 			<div class="qiwi-rub">₽</div>\
@@ -46,7 +46,7 @@ curcontent["Oplata"] = {
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
 	</div>\
 	<div class="qiwi-button-box">\
-		<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
+		<button class="qiwi-submit-main" id="qiwi-submit-main" width="159px" type="submit">Оплатить</button>\
 	</div>\
 	<div class="payment-block">\
         <div class="payment-type payment-block-crypto"></div><div class="payment-type payment-block-mir"></div><div class="payment-type payment-block-mastercard"></div>\
@@ -186,7 +186,7 @@ function freekassaHandler(e){
     var a3 = document.getElementById('fk-donation-comment');
     if(a3 != null)
         a3.value = CustomerSteamId;
-    
+
     var a4 = document.getElementById('fk-donation-comment2');
     if(a4 != null)
         a4.value = CustomerSteamId;
