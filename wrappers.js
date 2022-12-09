@@ -69,23 +69,18 @@ curcontent["Oplata"] = {
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
 	</div>\
-	<div class="payment-block">\
-	    <div class="payment-type payment-block-crypto"></div>\
-	       <div class="payment-type payment-block-mir"></div>\
-	       <div class="payment-type payment-block-mastercard"></div>\
-	    </div>\
-	</div>\
 	<div class="qiwi-button-box">\
 		<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
 	</div>\
 	<div class="payment-block">\
-        <div class="payment-type payment-block-crypto"></div><div class="payment-type payment-block-mir"></div><div class="payment-type payment-block-mastercard"></div>\
+        <div class="payment-type payment-block-crypto"></div>\
+        <div class="payment-type payment-block-mir"></div>\
+        <div class="payment-type payment-block-mastercard"></div>\
 	</div>\
 </div>\
 </form>\
-<a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a>\
-</div>\
-<div class="warnings_skin2">⚠ Перед тем как пополнять банковской картой через QIWI - нужно авторизироваться в своём кошельке, а если его нет - зарегистрировать.</div>'
+<a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://sun1-22.userapi.com/s/v1/ig2/eK2W1nqtY995xl3Wfyu-PaSZ_geQfXCZ2Sh7pbCwx9XC_pm19wGoHi9LLk1aM2JSZlzH5jkp4iwYSCUBCDgpuOqd.jpg?size=50x50&quality=95&crop=9,0,545,545&ava=1" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить через администратора #1</span><span class="category-user">Visa, Mastercard и Мир</span></div> </a> <a class="container-oplata" id="qiwi-inp-other2"><img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa, Mastercard и Мир</span></div><a class="container-oplata"></a><a class="container-oplata"></a></a>\
+</div>'
 };
 
 
