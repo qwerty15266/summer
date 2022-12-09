@@ -763,7 +763,7 @@ function freekassaHandler(e){
 	}
 	document.getElementById('fk-donation-amount').value = inputfloat;
 	document.getElementById('enot-donation-id').value = MD5('37757' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
-	//document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
+	document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
 	if(CustomerSteamId == "0" || CustomerSteamId == ""){
 		document.getElementById('fk-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
 		e.preventDefault();
