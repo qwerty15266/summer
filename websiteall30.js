@@ -754,8 +754,8 @@ function freekassaHandler(e){
 	qiwiFormHandle();
 	var inputval = document.getElementById('fk-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
-	if(inputfloat < 50 || inputfloat > 15000 || isNaN(inputfloat)){
-		document.getElementById('fk-error-box').innerText = "От 50 до 15000 RUB";
+	if(inputfloat < 1 || inputfloat > 15000 || isNaN(inputfloat)){
+		document.getElementById('fk-error-box').innerText = "От 1 до 15000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
@@ -777,8 +777,8 @@ function qiwiHandler(e){
 	//e.preventDefault();
 	var inputval = document.getElementById('qiwi-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
-	if(inputfloat < 200 || inputfloat > 15000 || isNaN(inputfloat)){
-		document.getElementById('qiwi-error-box').innerText = "От 200 до 15000 RUB";
+	if(inputfloat < 1 || inputfloat > 15000 || isNaN(inputfloat)){
+		document.getElementById('qiwi-error-box').innerText = "От 1 до 15000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
@@ -802,8 +802,8 @@ function centHandler(e){
 	qiwiFormHandle();
 	var inputval = document.getElementById('cent-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
-	if(inputfloat < 60 || inputfloat > 10000 || isNaN(inputfloat)){
-		document.getElementById('cent-error-box').innerText = "От 60 до 10000 RUB";
+	if(inputfloat < 1 || inputfloat > 10000 || isNaN(inputfloat)){
+		document.getElementById('cent-error-box').innerText = "От 1 до 10000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
