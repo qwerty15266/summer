@@ -6,6 +6,30 @@ curcontent["Oplata"] = {
     xhead: 'Способы пополнения баланса',
     xcon: '<div class="xbox oplata_info">\
 <div class="forms-oplata-grid">\
+\<form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://enot.io/pay">\
+<div class="qiwi-inp-oplata" id="qiwi-inp-other">\
+	<div class="qiwi-widget-title">Enot.io<br><p>криптовалюта и сбп</p></div>\
+	<div class="qiwi-inp-box">\
+			<label for="fk-donation-amount" class="qiwi-label">Cумма</label>\
+			<div class="qiwi-rub">₽</div>\
+			<input type="number" placeholder="Сумма" id="fk-donation-amount" name="oa" required="" value="">\
+			<input type="hidden" id="fk-donation-sign" name="s" value="">\
+			<input type="hidden" id="enot-donation-id" name="o" value="">\
+			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
+			<input type="hidden" name="m" value="41751">\
+			<input type="hidden" id="fk-donation-comment2" name="c" value="Пополнение баланса">\
+			<input type="hidden" name="cr" value="RUB">\
+			<div class="qiwi-error-box" id="fk-error-box"></div>\
+	</div>\
+	<div class="qiwi-button-box">\
+		<button class="qiwi-submit-main" id="fk-submit-main" width="159px" type="submit">Оплатить</button>\
+	</div>\
+	<div class="payment-block">\
+        <div class="payment-type payment-block-crypto"></div><div class="payment-type payment-block-mir"></div><div class="payment-type payment-block-mastercard"></div>\
+	</div>\
+</div>\
+</form>\
+\
 <form onsubmit="return freekassaHandler(event)" class="qiwi-inp-form" id="fk-inp-form" method="get" target="_blank" action="https://enot.io/pay">\
 <div class="qiwi-inp-oplata" id="qiwi-inp-other">\
 	<div class="qiwi-widget-title">Enot.io<br><p>криптовалюта и сбп</p></div>\
