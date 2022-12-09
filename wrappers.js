@@ -124,7 +124,7 @@ var OvhPayUrl = "";
 var now = new Date();
 
 function freekassaHandler(e){
-    qiwiFormHandle();
+
     var inputval = document.getElementById('fk-donation-amount').value;
     var inputfloat = parseFloat(inputval);
     if(inputfloat < 1 || inputfloat > 15000 || isNaN(inputfloat)){
@@ -135,8 +135,8 @@ function freekassaHandler(e){
         document.getElementById('fk-error-box').innerText = "";
     }
     document.getElementById('fk-donation-amount').value = inputfloat;
-    document.getElementById('enot-donation-id').value = MD5('37757' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
-    document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
+    document.getElementById('enot-donation-id').value = MD5('41751' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
+    document.getElementById('fk-donation-sign').value = MD5('41751:' + inputfloat + ':0zxrLSXVbCBB6SBp0Saak8YZhWJelH20:' + document.getElementById('enot-donation-id').value);
     if(CustomerSteamId == "0" || CustomerSteamId == ""){
         document.getElementById('fk-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
         e.preventDefault();
