@@ -17,7 +17,7 @@ curcontent["Oplata"] = {
 			<input type="hidden" id="enot-donation-id" name="o" value="">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
 			<input type="hidden" name="m" value="41751">\
-			<input type="hidden" name="c" value="Пополнение баланса">\
+			<input type="hidden" id="fk-donation-comment2" name="c" value="Пополнение баланса">\
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
 	</div>\
@@ -134,6 +134,13 @@ function freekassaHandler(e){
     }else{
         document.getElementById('fk-error-box').innerText = "";
     }
+    var a3 = document.getElementById('fk-donation-comment');
+    if(a3 != null)
+        a3.value = CustomerSteamId;
+    
+    var a4 = document.getElementById('fk-donation-comment2');
+    if(a4 != null)
+        a4.value = CustomerSteamId;
     document.getElementById('fk-donation-amount').value = inputfloat;
     document.getElementById('enot-donation-id').value = MD5('41751' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
     document.getElementById('fk-donation-sign').value = MD5('41751:' + inputfloat + ':0zxrLSXVbCBB6SBp0Saak8YZhWJelH20:' + document.getElementById('enot-donation-id').value);
