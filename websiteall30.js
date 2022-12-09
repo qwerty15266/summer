@@ -599,10 +599,10 @@ curcontent["Oplata"] = {
 			<label for="fk-donation-amount" class="qiwi-label">Cумма</label>\
 			<div class="qiwi-rub">₽</div>\
 			<input type="number" placeholder="Сумма" id="fk-donation-amount" name="oa" required="" value="">\
-			<input type="hidden" id="fk-donation-sign" name="s" value="">\
-			<input type="hidden" id="enot-donation-id" name="o" value="123123123123">\
+			<input type="hidden" id="fk-donation-sign" name="s" value="0zxrLSXVbCBB6SBp0Saak8YZhWJelH20">\
+			<input type="hidden" id="enot-donation-id" name="o" value="">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
-			<input type="hidden" name="m" value="37757">\
+			<input type="hidden" name="m" value="41751">\
 			<input type="hidden" name="c" value="Пополнение баланса">\
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
@@ -763,7 +763,7 @@ function freekassaHandler(e){
 	}
 	document.getElementById('fk-donation-amount').value = inputfloat;
 	document.getElementById('enot-donation-id').value = MD5('37757' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
-	document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
+	//document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
 	if(CustomerSteamId == "0" || CustomerSteamId == ""){
 		document.getElementById('fk-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
 		e.preventDefault();
