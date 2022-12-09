@@ -1,8 +1,8 @@
 var curcontent = new Array();
 //#region contents
 curcontent["rules"] = {
-	xhead: 'Правила',
-	xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Основная информация</span></p>\
+    xhead: 'Правила',
+    xcon: '<div class="xbox_custom_rules"><ul><p class="MsoNormal"><span>Основная информация</span></p>\
 <p><li>Не знание правил не освобождает Вас от ответственности.</li></p>\
 <p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
 <p><li>Вы несете ответственность за все свои аккаунты. Получив бан на одном - Вы получите его и на других. То же самое будет, если на одном из ваших аккаунтах имеется EAC блокировка.</li></p>\
@@ -48,8 +48,8 @@ curcontent["rules"] = {
 };
 
 curcontent["kit-prem"] = {
-	xhead: 'Платные киты',
-	xcon: '<div class="store-categories">\
+    xhead: 'Платные киты',
+    xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary active">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -137,8 +137,8 @@ curcontent["kit-prem"] = {
 };
 
 curcontent["kit-elite"] = {
-	xhead: 'Платные киты',
-	xcon: '<div class="store-categories">\
+    xhead: 'Платные киты',
+    xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary active">ELITE</button>\
@@ -231,8 +231,8 @@ curcontent["kit-elite"] = {
 
 
 curcontent["kit-life"] = {
-	xhead: 'Платные киты',
-	xcon: '<div class="store-categories">\
+    xhead: 'Платные киты',
+    xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -323,8 +323,8 @@ curcontent["kit-life"] = {
 
 
 curcontent["kit-rusty"] = {
-	xhead: 'Платные киты',
-	xcon: '<div class="store-categories">\
+    xhead: 'Платные киты',
+    xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -442,8 +442,8 @@ curcontent["kit-rusty"] = {
 
 
 curcontent["kit-free"] = {
-	xhead: 'Стандартные киты',
-	xcon: '<div class="store-categories">\
+    xhead: 'Стандартные киты',
+    xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary active">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -517,23 +517,23 @@ curcontent["kit-free"] = {
 };
 
 curcontent["block"] = {
-	xhead: 'Блокировка предметов после вайпа', 
-	xcon: '<div class="xbox_custom_block"><div class="kit-items">'
-	
+    xhead: 'Блокировка предметов после вайпа',
+    xcon: '<div class="xbox_custom_block"><div class="kit-items">'
+
 };
 
 var BlockListArrays = [
-['shotgun.waterpipe', 'pistol.revolver'],
-['pistol.python', 'pistol.semiauto', 'pistol.prototype17', 'pistol.m92', 'shotgun.double', 'coffeecan.helmet', 'roadsign.jacket', 'roadsign.kilt'], 
-['shotgun.pump', 'shotgun.spas12', 'smg.2', 'smg.thompson', 'smg.mp5', 'rifle.semiauto', 'rifle.m39'],
-['rifle.ak', 'rifle.ak.ice', 'rifle.lr300', 'rifle.bolt', 'rifle.l96', 'hmlmg', 'metal.facemask', 'metal.plate.torso', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'], 
-['lmg.m249', 'grenade.f1', 'grenade.beancan'], 
-['explosive.satchel', 'ammo.rifle.explosive', 'multiplegrenadelauncher'],
-['rocket.launcher', 'explosive.timed']];
+    ['shotgun.waterpipe', 'pistol.revolver'],
+    ['pistol.python', 'pistol.semiauto', 'pistol.prototype17', 'pistol.m92', 'shotgun.double', 'coffeecan.helmet', 'roadsign.jacket', 'roadsign.kilt'],
+    ['shotgun.pump', 'shotgun.spas12', 'smg.2', 'smg.thompson', 'smg.mp5', 'rifle.semiauto', 'rifle.m39'],
+    ['rifle.ak', 'rifle.ak.ice', 'rifle.lr300', 'rifle.bolt', 'rifle.l96', 'hmlmg', 'metal.facemask', 'metal.plate.torso', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'],
+    ['lmg.m249', 'grenade.f1', 'grenade.beancan'],
+    ['explosive.satchel', 'ammo.rifle.explosive', 'multiplegrenadelauncher'],
+    ['rocket.launcher', 'explosive.timed']];
 
 //#endregion
 curcontent["Oplata"] = {
-	xcon: '\
+    xcon: '\
     	<div class="refill-window__header">\
     		<div class="refill-window__title">Пополнение баланса</div>\
     		<button class="refill-window__close">×</button>\
@@ -616,33 +616,33 @@ curcontent["Oplata"] = {
 let btn_unlocked = 0;
 
 function ResetBtns() {
-	let btn1 = document.getElementById('element1');
-	let btn2 = document.getElementById('element2');
-	let btn3 = document.getElementById('element3');
-	let btn4 = document.getElementById('element4');
-	let btn5 = document.getElementById('element5');
-	let btn6 = document.getElementById('element6');
-	let btn7 = document.getElementById('element7');
-	let btn8 = document.getElementById('element8');
-	let btn9 = document.getElementById('element9');
-	let btn10 = document.getElementById('element10');
+    let btn1 = document.getElementById('element1');
+    let btn2 = document.getElementById('element2');
+    let btn3 = document.getElementById('element3');
+    let btn4 = document.getElementById('element4');
+    let btn5 = document.getElementById('element5');
+    let btn6 = document.getElementById('element6');
+    let btn7 = document.getElementById('element7');
+    let btn8 = document.getElementById('element8');
+    let btn9 = document.getElementById('element9');
+    let btn10 = document.getElementById('element10');
 
-	btn1.style.backgroundColor = "#1d1d26";
-	btn2.style.backgroundColor = "#1d1d26";
-	btn3.style.backgroundColor = "#1d1d26";
-	btn4.style.backgroundColor = "#1d1d26";
-	btn5.style.backgroundColor = "#1d1d26";
-	btn6.style.backgroundColor = "#1d1d26";
-	btn7.style.backgroundColor = "#1d1d26";
-	btn8.style.backgroundColor = "#1d1d26";
-	btn9.style.backgroundColor = "#1d1d26";
-	btn10.style.backgroundColor = "#1d1d26";
+    btn1.style.backgroundColor = "#1d1d26";
+    btn2.style.backgroundColor = "#1d1d26";
+    btn3.style.backgroundColor = "#1d1d26";
+    btn4.style.backgroundColor = "#1d1d26";
+    btn5.style.backgroundColor = "#1d1d26";
+    btn6.style.backgroundColor = "#1d1d26";
+    btn7.style.backgroundColor = "#1d1d26";
+    btn8.style.backgroundColor = "#1d1d26";
+    btn9.style.backgroundColor = "#1d1d26";
+    btn10.style.backgroundColor = "#1d1d26";
 }
 
 function UnLockBuyBtn() {
-	let btn_buy = document.getElementById('buybtn');
-	btn_buy.classList.remove('refill-window__button--disabled');
-	btn_buy.classList.add('refill-window__button--enable');
+    let btn_buy = document.getElementById('buybtn');
+    btn_buy.classList.remove('refill-window__button--disabled');
+    btn_buy.classList.add('refill-window__button--enable');
 }
 
 /**
@@ -650,120 +650,120 @@ function UnLockBuyBtn() {
  * @param event
  * @constructor
  */
-function OnClickBuyBtn(event) 
+function OnClickBuyBtn(event)
 {
-	if (btn_unlocked == 1) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 30 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlQiwi());
-	   }
-	}
-	if (btn_unlocked == 2) {
-		appcentHandler();
-	}
-	if (btn_unlocked == 3) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 50 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
-	if (btn_unlocked == 4) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 10 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 10 RUB.";
-		   document.getElementById('buybtn').removeAttribute("href");
-		   return false;
-	   }
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-	       document.getElementById('buybtn').setAttribute("href", OvhPayUrl);
-	   }
-	}
-	if (btn_unlocked == 5) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 50 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
-	if (btn_unlocked == 6) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 30 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlQiwi());
-	   }
-	}
-	if (btn_unlocked == 7) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 50 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
-	if (btn_unlocked == 8) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 1500 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 1500 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
-	if (btn_unlocked == 9) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 1500 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 1500 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
-	if (btn_unlocked == 10) {
-	   var inputval = document.getElementById('refill-window__amount-input').value;
-	   var inputfloat = parseFloat(inputval);
-	   if (inputfloat < 100 || isNaN(inputfloat)) {
-		   document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
-		   return false;
-	   } 
-	   else {
-		   document.getElementById('bonus-text').innerText = "";
-		   window.open(generateUrlEnot());
-	   }
-	}
+    if (btn_unlocked == 1) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 30 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlQiwi());
+        }
+    }
+    if (btn_unlocked == 2) {
+        appcentHandler();
+    }
+    if (btn_unlocked == 3) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 50 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
+    if (btn_unlocked == 4) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 10 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 10 RUB.";
+            document.getElementById('buybtn').removeAttribute("href");
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            document.getElementById('buybtn').setAttribute("href", OvhPayUrl);
+        }
+    }
+    if (btn_unlocked == 5) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 50 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
+    if (btn_unlocked == 6) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 30 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlQiwi());
+        }
+    }
+    if (btn_unlocked == 7) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 50 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 50 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
+    if (btn_unlocked == 8) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 1500 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 1500 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
+    if (btn_unlocked == 9) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 1500 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 1500 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
+    if (btn_unlocked == 10) {
+        var inputval = document.getElementById('refill-window__amount-input').value;
+        var inputfloat = parseFloat(inputval);
+        if (inputfloat < 100 || isNaN(inputfloat)) {
+            document.getElementById('bonus-text').innerText = "Минимальная сумма - 100 RUB.";
+            return false;
+        }
+        else {
+            document.getElementById('bonus-text').innerText = "";
+            window.open(generateUrlEnot());
+        }
+    }
 }
 var MD5 = function (d) { result = M(V(Y(X(d), 8 * d.length))); return result.toLowerCase() }; function M(d) { for (var _, m = "0123456789ABCDEF", f = "", r = 0; r < d.length; r++)_ = d.charCodeAt(r), f += m.charAt(_ >>> 4 & 15) + m.charAt(15 & _); return f } function X(d) { for (var _ = Array(d.length >> 2), m = 0; m < _.length; m++)_[m] = 0; for (m = 0; m < 8 * d.length; m += 8)_[m >> 5] |= (255 & d.charCodeAt(m / 8)) << m % 32; return _ } function V(d) { for (var _ = "", m = 0; m < 32 * d.length; m += 8)_ += String.fromCharCode(d[m >> 5] >>> m % 32 & 255); return _ } function Y(d, _) { d[_ >> 5] |= 128 << _ % 32, d[14 + (_ + 64 >>> 9 << 4)] = _; for (var m = 1732584193, f = -271733879, r = -1732584194, i = 271733878, n = 0; n < d.length; n += 16) { var h = m, t = f, g = r, e = i; f = md5_ii(f = md5_ii(f = md5_ii(f = md5_ii(f = md5_hh(f = md5_hh(f = md5_hh(f = md5_hh(f = md5_gg(f = md5_gg(f = md5_gg(f = md5_gg(f = md5_ff(f = md5_ff(f = md5_ff(f = md5_ff(f, r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 0], 7, -680876936), f, r, d[n + 1], 12, -389564586), m, f, d[n + 2], 17, 606105819), i, m, d[n + 3], 22, -1044525330), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 4], 7, -176418897), f, r, d[n + 5], 12, 1200080426), m, f, d[n + 6], 17, -1473231341), i, m, d[n + 7], 22, -45705983), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 8], 7, 1770035416), f, r, d[n + 9], 12, -1958414417), m, f, d[n + 10], 17, -42063), i, m, d[n + 11], 22, -1990404162), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 12], 7, 1804603682), f, r, d[n + 13], 12, -40341101), m, f, d[n + 14], 17, -1502002290), i, m, d[n + 15], 22, 1236535329), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 1], 5, -165796510), f, r, d[n + 6], 9, -1069501632), m, f, d[n + 11], 14, 643717713), i, m, d[n + 0], 20, -373897302), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 5], 5, -701558691), f, r, d[n + 10], 9, 38016083), m, f, d[n + 15], 14, -660478335), i, m, d[n + 4], 20, -405537848), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 9], 5, 568446438), f, r, d[n + 14], 9, -1019803690), m, f, d[n + 3], 14, -187363961), i, m, d[n + 8], 20, 1163531501), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 13], 5, -1444681467), f, r, d[n + 2], 9, -51403784), m, f, d[n + 7], 14, 1735328473), i, m, d[n + 12], 20, -1926607734), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 5], 4, -378558), f, r, d[n + 8], 11, -2022574463), m, f, d[n + 11], 16, 1839030562), i, m, d[n + 14], 23, -35309556), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 1], 4, -1530992060), f, r, d[n + 4], 11, 1272893353), m, f, d[n + 7], 16, -155497632), i, m, d[n + 10], 23, -1094730640), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 13], 4, 681279174), f, r, d[n + 0], 11, -358537222), m, f, d[n + 3], 16, -722521979), i, m, d[n + 6], 23, 76029189), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 9], 4, -640364487), f, r, d[n + 12], 11, -421815835), m, f, d[n + 15], 16, 530742520), i, m, d[n + 2], 23, -995338651), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 0], 6, -198630844), f, r, d[n + 7], 10, 1126891415), m, f, d[n + 14], 15, -1416354905), i, m, d[n + 5], 21, -57434055), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 12], 6, 1700485571), f, r, d[n + 3], 10, -1894986606), m, f, d[n + 10], 15, -1051523), i, m, d[n + 1], 21, -2054922799), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 8], 6, 1873313359), f, r, d[n + 15], 10, -30611744), m, f, d[n + 6], 15, -1560198380), i, m, d[n + 13], 21, 1309151649), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 4], 6, -145523070), f, r, d[n + 11], 10, -1120210379), m, f, d[n + 2], 15, 718787259), i, m, d[n + 9], 21, -343485551), m = safe_add(m, h), f = safe_add(f, t), r = safe_add(r, g), i = safe_add(i, e) } return Array(m, f, r, i) } function md5_cmn(d, _, m, f, r, i) { return safe_add(bit_rol(safe_add(safe_add(_, d), safe_add(f, i)), r), m) } function md5_ff(d, _, m, f, r, i, n) { return md5_cmn(_ & m | ~_ & f, d, _, r, i, n) } function md5_gg(d, _, m, f, r, i, n) { return md5_cmn(_ & f | m & ~f, d, _, r, i, n) } function md5_hh(d, _, m, f, r, i, n) { return md5_cmn(_ ^ m ^ f, d, _, r, i, n) } function md5_ii(d, _, m, f, r, i, n) { return md5_cmn(m ^ (_ | ~f), d, _, r, i, n) } function safe_add(d, _) { var m = (65535 & d) + (65535 & _); return (d >> 16) + (_ >> 16) + (m >> 16) << 16 | 65535 & m } function bit_rol(d, _) { return d << _ | d >>> 32 - _ }
 
@@ -772,12 +772,12 @@ var MD5 = function (d) { result = M(V(Y(X(d), 8 * d.length))); return result.toL
  * @returns {string}
  */
 function generateUrlQiwi(){
-	var publicKey = '48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iP5PFjShvHqFqVrUtjkc35pmkuQU11pX4tyARkHb4guLEqnGthNfF4EbSFbZ1kp5jEiWx1AAmd8tyboxD5rCKq7dbvhBtD2vw4QUmLcVd6T';
-	var commentQiwi = `${CustomerSteamId}`;
-	var successUrlQiwi = 'https://rustylife.ru';
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var inputfloat = parseFloat(inputval);
-	return 'https://oplata.qiwi.com/create?amount='+inputfloat+'&comment='+commentQiwi+'&publicKey='+publicKey+'&account=0&customFields[themeCode]=Konstantyn-K9-lD3vkZl&successUrl='+successUrlQiwi;
+    var publicKey = '48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPstb71o5WBc81rSxcVSwZGupjxDG2C76qeMK3rnwH3fNeFYggGmJkMrsFtA2TdEoPABE8aAihFaP3FAoqdWRr4hRa4DX5QPihAQ2gioqiB';
+    var commentQiwi = `${CustomerSteamId}`;
+    var successUrlQiwi = 'http://17582.pay2win.ru/';
+    var inputval = document.getElementById('refill-window__amount-input').value;
+    var inputfloat = parseFloat(inputval);
+    return 'https://oplata.qiwi.com/create?amount='+inputfloat+'&comment='+commentQiwi+'&publicKey='+publicKey+'&account=0&customFields[themeCode]=Konstantyn-K9-lD3vkZl&successUrl='+successUrlQiwi;
 }
 
 /**
@@ -785,280 +785,280 @@ function generateUrlQiwi(){
  * @returns {string}
  */
 function generateUrlEnot(){
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var MERCHANT_ID   = 45517,             // ID магазина
-	SECRET_WORD   = 'P-zRR94Ohg-2LE3bzkollv05TXg3o-Jr',   // Секретный ключ
-	ORDER_AMOUNT  = parseFloat(inputval),               // Сумма заказа
-	PAYMENT_ID    = new Date().getTime(),        // ID заказа (мы используем time(), чтобы был
-	SLUG = MD5(MERCHANT_ID+':'+ORDER_AMOUNT+':'+SECRET_WORD+':'+PAYMENT_ID)
-	return 'https://enot.io/pay?c='+`${CustomerSteamId}`+`&cf=`+`${CustomerSteamId}`+'&m='+MERCHANT_ID+'&oa='+ORDER_AMOUNT+'&o='+PAYMENT_ID+'&s='+SLUG;
+    var inputval = document.getElementById('refill-window__amount-input').value;
+    var MERCHANT_ID   = 41751,             // ID магазина
+        SECRET_WORD   = '0zxrLSXVbCBB6SBp0Saak8YZhWJelH20',   // Секретный ключ
+        ORDER_AMOUNT  = parseFloat(inputval),               // Сумма заказа
+        PAYMENT_ID    = new Date().getTime(),        // ID заказа (мы используем time(), чтобы был
+        SLUG = MD5(MERCHANT_ID+':'+ORDER_AMOUNT+':'+SECRET_WORD+':'+PAYMENT_ID)
+    return 'https://enot.io/pay?c='+`${CustomerSteamId}`+`&cf=`+`${CustomerSteamId}`+'&m='+MERCHANT_ID+'&oa='+ORDER_AMOUNT+'&o='+PAYMENT_ID+'&s='+SLUG;
 }
 var colorgrayhover = "#272730";
 function OnClickElement1(event) { /*QIWI*/
-	ResetBtns();
+    ResetBtns();
 
-	let element = document.getElementById('element1');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 1;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+    let element = document.getElementById('element1');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 1;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
 function OnClickElement2(event) { /*CENT.APP*/
-	ResetBtns();
-	
-	let element = document.getElementById('element2');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 2;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+    ResetBtns();
+
+    let element = document.getElementById('element2');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 2;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
 function OnClickElement3(event) { /*ENOT.IO*/
-	ResetBtns();
-	
-	let element = document.getElementById('element3');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 3;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+    ResetBtns();
+
+    let element = document.getElementById('element3');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 3;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
 function OnClickElement4(event) { /*MOSCOW.OVH x TOME*/
-	ResetBtns();
-	
-	let element = document.getElementById('element4');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 4;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
+    ResetBtns();
+
+    let element = document.getElementById('element4');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 4;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
 }
 
-function OnClickElement5(event) { /*ENOT.IO*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element5');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 5;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+function OnClickElement5(event) { /*ENOT.IO*/
+    ResetBtns();
+
+    let element = document.getElementById('element5');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 5;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
 function OnClickElement6(event) { /*QIWI*/
-	ResetBtns();
-	
-	let element = document.getElementById('element6');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 6;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+    ResetBtns();
+
+    let element = document.getElementById('element6');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 6;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
-function OnClickElement7(event) { /*ENOT.IO*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element7');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 7;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+function OnClickElement7(event) { /*ENOT.IO*/
+    ResetBtns();
+
+    let element = document.getElementById('element7');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 7;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
-function OnClickElement8(event) { /*ENOT.IO*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element8');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 8;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+function OnClickElement8(event) { /*ENOT.IO*/
+    ResetBtns();
+
+    let element = document.getElementById('element8');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 8;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
-function OnClickElement9(event) { /*ENOT.IO*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element9');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 9;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+function OnClickElement9(event) { /*ENOT.IO*/
+    ResetBtns();
+
+    let element = document.getElementById('element9');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 9;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
-function OnClickElement10(event) { /*ENOT.IO*/ 
-	ResetBtns();
-	
-	let element = document.getElementById('element10');
-	element.style.backgroundColor = colorgrayhover;
-	btn_unlocked = 10;
-	UnLockBuyBtn();
-	document.getElementById('bonus-text').innerText = "";
-	document.getElementById('buybtn').removeAttribute("href");
+function OnClickElement10(event) { /*ENOT.IO*/
+    ResetBtns();
+
+    let element = document.getElementById('element10');
+    element.style.backgroundColor = colorgrayhover;
+    btn_unlocked = 10;
+    UnLockBuyBtn();
+    document.getElementById('bonus-text').innerText = "";
+    document.getElementById('buybtn').removeAttribute("href");
 }
 
 
 
 function OpenPay(el, usefade = true, zind = false) {
-	closepagePay();
-	var div1 = document.createElement("div");
+    closepagePay();
+    var div1 = document.createElement("div");
     div1.id = 'ModalPay';
-	var div2 = document.createElement("div");
-	div2.className = 'modalpay modalpay-service fade';
-	if(!usefade) div2.classList.add("show");
-	div2.style = 'display: block; z-index: 1100;';
-	div2.id = 'closer';
-	var div3 = document.createElement("div");
-	div3.className = "modalpay-dialog modalpay-lg";
-	var div4 = document.createElement("div");
-	div4.className = "modalpay-content";
-	var div6 = document.createElement("div");
-	div6.className = "modalpay-body";
-	div6.innerHTML = curcontent[el].xcon;
-	var div7 = document.createElement("div");
-	var div8 = document.createElement("div");
-	div8.className = "modalpay-backdrop fade show";
-	div8.style = 'z-index: 1050;';
-	if(el=="Oplata") {div2.style = 'display: flex; place-content: center; align-items: center; z-index: 1051;';}
-	
-	div1.appendChild(div2);
-	div2.appendChild(div3);
-	div3.appendChild(div6);
-	div1.appendChild(div8);
-	if(usefade) setTimeout(()=> div2.classList.add("show"), 0);
-	
-	var body = document.getElementsByTagName('body')[0];
-	body.appendChild(div1);
-	body.className = "modal-open";
+    var div2 = document.createElement("div");
+    div2.className = 'modalpay modalpay-service fade';
+    if(!usefade) div2.classList.add("show");
+    div2.style = 'display: block; z-index: 1100;';
+    div2.id = 'closer';
+    var div3 = document.createElement("div");
+    div3.className = "modalpay-dialog modalpay-lg";
+    var div4 = document.createElement("div");
+    div4.className = "modalpay-content";
+    var div6 = document.createElement("div");
+    div6.className = "modalpay-body";
+    div6.innerHTML = curcontent[el].xcon;
+    var div7 = document.createElement("div");
+    var div8 = document.createElement("div");
+    div8.className = "modalpay-backdrop fade show";
+    div8.style = 'z-index: 1050;';
+    if(el=="Oplata") {div2.style = 'display: flex; place-content: center; align-items: center; z-index: 1051;';}
+
+    div1.appendChild(div2);
+    div2.appendChild(div3);
+    div3.appendChild(div6);
+    div1.appendChild(div8);
+    if(usefade) setTimeout(()=> div2.classList.add("show"), 0);
+
+    var body = document.getElementsByTagName('body')[0];
+    body.appendChild(div1);
+    body.className = "modal-open";
 }
 
 function closepagePay() {
-  var Modal = document.getElementById('ModalPay');
-  var Modalparent = null;
-  try {
-    Modalparent = ((Modal.parentElement) ? Modal.parentElement : ((Modal.parentNode) ? Modal.parentNode : null));
-  } catch (error) {
-    return;
-  }
-  if (Modalparent == null) return;
-  Modalparent.removeChild(Modal);
-  document.getElementsByTagName('body')[0].className = "";
-  btn_unlocked = 0;
+    var Modal = document.getElementById('ModalPay');
+    var Modalparent = null;
+    try {
+        Modalparent = ((Modal.parentElement) ? Modal.parentElement : ((Modal.parentNode) ? Modal.parentNode : null));
+    } catch (error) {
+        return;
+    }
+    if (Modalparent == null) return;
+    Modalparent.removeChild(Modal);
+    document.getElementsByTagName('body')[0].className = "";
+    btn_unlocked = 0;
 }
 
 function Open(el, usefade = true, zind = false) {
-	closepage();
-	var div1 = document.createElement("div");
+    closepage();
+    var div1 = document.createElement("div");
     div1.id = 'Modal';
-	var div2 = document.createElement("div");
-	div2.className = 'modal modal-service fade';
-	if(!usefade) div2.classList.add("show");
-	div2.style = 'display: block; z-index: 1100;';
-	div2.id = 'closer';
-	var div3 = document.createElement("div");
-	div3.className = "modal-dialog modal-lg";
-	if(el=="block")div3.className+=" modal-lg-block"
-	if(el=="block") {div2.style = 'display: flex; align-content: center; align-items: center; z-index: 1051;';}
-	var div4 = document.createElement("div");
-	div4.className = "modal-content";
-	var div5 = document.createElement("div");
-	div5.className = "modal-header";
-	div5.innerHTML = '<h4 class="modal-title">'+curcontent[el].xhead+'</h4>';
-	var div6 = document.createElement("div");
-	div6.className = "modal-body";
-	div6.innerHTML = curcontent[el].xcon;
-	var div7 = document.createElement("div");
-	div7.className = "modal-footer";
-	div7.innerHTML = '<button type="button" class="btn btn-secondary" id="closer" onclick="closepage()">Закрыть</button>';
-	var div8 = document.createElement("div");
-	div8.className = "modal-backdrop fade show";
-	div8.style = 'z-index: 1050;';
-	if(el=="Oplata") {div2.style = 'display: flex; align-content: center; align-items: center; z-index: 1051;';}
-	
-	div1.appendChild(div2);
-	div2.appendChild(div3);
-	div3.appendChild(div4);
-	div4.appendChild(div5);
-	div4.appendChild(div6);
-	div4.appendChild(div7);
-	div1.appendChild(div8);
-	if(usefade) setTimeout(()=> div2.classList.add("show"), 0);
-	
-	var body = document.getElementsByTagName('body')[0];
-	body.appendChild(div1);
-	body.className = "modal-open";
+    var div2 = document.createElement("div");
+    div2.className = 'modal modal-service fade';
+    if(!usefade) div2.classList.add("show");
+    div2.style = 'display: block; z-index: 1100;';
+    div2.id = 'closer';
+    var div3 = document.createElement("div");
+    div3.className = "modal-dialog modal-lg";
+    if(el=="block")div3.className+=" modal-lg-block"
+    if(el=="block") {div2.style = 'display: flex; align-content: center; align-items: center; z-index: 1051;';}
+    var div4 = document.createElement("div");
+    div4.className = "modal-content";
+    var div5 = document.createElement("div");
+    div5.className = "modal-header";
+    div5.innerHTML = '<h4 class="modal-title">'+curcontent[el].xhead+'</h4>';
+    var div6 = document.createElement("div");
+    div6.className = "modal-body";
+    div6.innerHTML = curcontent[el].xcon;
+    var div7 = document.createElement("div");
+    div7.className = "modal-footer";
+    div7.innerHTML = '<button type="button" class="btn btn-secondary" id="closer" onclick="closepage()">Закрыть</button>';
+    var div8 = document.createElement("div");
+    div8.className = "modal-backdrop fade show";
+    div8.style = 'z-index: 1050;';
+    if(el=="Oplata") {div2.style = 'display: flex; align-content: center; align-items: center; z-index: 1051;';}
+
+    div1.appendChild(div2);
+    div2.appendChild(div3);
+    div3.appendChild(div4);
+    div4.appendChild(div5);
+    div4.appendChild(div6);
+    div4.appendChild(div7);
+    div1.appendChild(div8);
+    if(usefade) setTimeout(()=> div2.classList.add("show"), 0);
+
+    var body = document.getElementsByTagName('body')[0];
+    body.appendChild(div1);
+    body.className = "modal-open";
 }
 
 function closepage() {
-  var Modal = document.getElementById('Modal');
-  var Modalparent = null;
-  try {
-    Modalparent = ((Modal.parentElement) ? Modal.parentElement : ((Modal.parentNode) ? Modal.parentNode : null));
-  } catch (error) {
-    return;
-  }
-  if (Modalparent == null) return;
-  Modalparent.removeChild(Modal);
-  document.getElementsByTagName('body')[0].className = "";
+    var Modal = document.getElementById('Modal');
+    var Modalparent = null;
+    try {
+        Modalparent = ((Modal.parentElement) ? Modal.parentElement : ((Modal.parentNode) ? Modal.parentNode : null));
+    } catch (error) {
+        return;
+    }
+    if (Modalparent == null) return;
+    Modalparent.removeChild(Modal);
+    document.getElementsByTagName('body')[0].className = "";
 }
 
 function search(e){
-	if (e.offsetX < 1) { 
-		console.log(e.target.innerText + ' | ' + e.clientX);
-		if (document.selection) { // IE
-			var range = document.body.createTextRange();
-			range.moveToElementText(e.target);
-			range.select();
-		} else if (window.getSelection) {
-			var range = document.createRange();
-			range.selectNode(e.target);
-			window.getSelection().removeAllRanges();
-			window.getSelection().addRange(range);
-		}
-		try {
-			var successful = document.execCommand('copy');
-			var msg = successful ? 'successful' : 'unsuccessful';
-			console.log('успешно скопирован, нажмите CTRL + V чтобы вставить в консоль F1 в игре.'); 
-		  } catch (err) {
-			console.log('Oops, unable to copy' + err);
-		  }
+    if (e.offsetX < 1) {
+        console.log(e.target.innerText + ' | ' + e.clientX);
+        if (document.selection) { // IE
+            var range = document.body.createTextRange();
+            range.moveToElementText(e.target);
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(e.target);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+        }
+        try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'successful' : 'unsuccessful';
+            console.log('успешно скопирован, нажмите CTRL + V чтобы вставить в консоль F1 в игре.');
+        } catch (err) {
+            console.log('Oops, unable to copy' + err);
+        }
     }
 }
 
 window.onload = function () {
-	document.body.onclick=function(event)
-	{
-		if(event.target.id == 'closer')closepage();
-		if(event.target.id == 'closer')closepagePay();
-		if(event.target.className == 'refill-window__close')closepagePay();
-		if(event.target.className == 'MsoCommand')search(event);
-	}
-	
-	for (var i = 0; i < BlockListArrays.length; i++) {
-		curcontent["block"].xcon += '<div class="block_by_category block_category_'+ (i + 1) +'">';
-		for (var b = 0; b < BlockListArrays[i].length; b++) {
-			if(b == 5 && i == 4)
-			curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png">\
+    document.body.onclick=function(event)
+    {
+        if(event.target.id == 'closer')closepage();
+        if(event.target.id == 'closer')closepagePay();
+        if(event.target.className == 'refill-window__close')closepagePay();
+        if(event.target.className == 'MsoCommand')search(event);
+    }
+
+    for (var i = 0; i < BlockListArrays.length; i++) {
+        curcontent["block"].xcon += '<div class="block_by_category block_category_'+ (i + 1) +'">';
+        for (var b = 0; b < BlockListArrays[i].length; b++) {
+            if(b == 5 && i == 4)
+                curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png">\
 										<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
-			else
-				if (BlockListArrays[i][b] == "pistol.prototype17") {
-				curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2022/11/06/723437cdd667a17816dccdbdd75994c5.png">\
+            else
+            if (BlockListArrays[i][b] == "pistol.prototype17") {
+                curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2022/11/06/723437cdd667a17816dccdbdd75994c5.png">\
 											<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
-				}
-				else {
-				curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://www.rustedit.io/images/imagelibrary/'+ BlockListArrays[i][b] +'.png">\
+            }
+            else {
+                curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://www.rustedit.io/images/imagelibrary/'+ BlockListArrays[i][b] +'.png">\
 											<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
-				}
-		}
-		curcontent["block"].xcon += '</div>';
-	}
-	curcontent["block"].xcon += '</div>\<br></i></div>';
+            }
+        }
+        curcontent["block"].xcon += '</div>';
+    }
+    curcontent["block"].xcon += '</div>\<br></i></div>';
 }
 
 var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
@@ -1067,98 +1067,98 @@ var OvhPayUrl = "";
 const appCentForm = document.getElementById('appcent-inp-form');
 
 function appcentHandler() {
-	var inputval = document.getElementById('refill-window__amount-input').value;
-	var inputfloat = parseFloat(inputval);
+    var inputval = document.getElementById('refill-window__amount-input').value;
+    var inputfloat = parseFloat(inputval);
 
-	if (inputfloat < 30 || isNaN(inputfloat)) {
-		document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
-		return false;
-	} else {
-		document.getElementById('bonus-text').innerText = "";
-	}
+    if (inputfloat < 30 || isNaN(inputfloat)) {
+        document.getElementById('bonus-text').innerText = "Минимальная сумма - 30 RUB.";
+        return false;
+    } else {
+        document.getElementById('bonus-text').innerText = "";
+    }
 
-	if (CustomerSteamId == "0" || CustomerSteamId == "") {
-		//document.getElementById('appcent-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
+    if (CustomerSteamId == "0" || CustomerSteamId == "") {
+        //document.getElementById('appcent-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
 
-		//return false;
-	}
+        //return false;
+    }
 
-	fetch('https://cent.app/api/v1/bill/create', {
-		method: 'POST',
-		headers: {
-			'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify({
-			amount: inputfloat,
-			shop_id: 'WG76jKb7xl',
-			order_id: `${CustomerSteamId}`,
-			payer_pays_commission: '1',
-			name: `Пополнение для ${CustomerSteamId}`,
-		})
-	})
-		.then((res) => {
-			if (res.ok) {
-				return res.json();
-			} else {
-				console.log(res.status)
-				return Promise.reject(`Ошибка: ${res.status}`);
-			};
-		})
-		.then((res) => {
-			window.open(res.link_page_url);
-		})
+    fetch('https://cent.app/api/v1/bill/create', {
+        method: 'POST',
+        headers: {
+            'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            amount: inputfloat,
+            shop_id: 'WG76jKb7xl',
+            order_id: `${CustomerSteamId}`,
+            payer_pays_commission: '1',
+            name: `Пополнение для ${CustomerSteamId}`,
+        })
+    })
+        .then((res) => {
+            if (res.ok) {
+                return res.json();
+            } else {
+                console.log(res.status)
+                return Promise.reject(`Ошибка: ${res.status}`);
+            };
+        })
+        .then((res) => {
+            window.open(res.link_page_url);
+        })
 }
 
 
 function OvhUrlOverrite() {
-	var slides = document.getElementsByClassName("nav-link");
-	for (var i = 0; i < slides.length; i++) {
-		var elelink = slides.item(i);
-		var urlelelink = elelink.getAttribute("href");
-		if (urlelelink.startsWith('https://pay.moscow.ovh')) {
-			OvhPayUrl = urlelelink;
-			console.log(OvhPayUrl);
-			elelink.setAttribute("href", "javascript:;");
-			elelink.setAttribute("onclick", "OpenOplata()");
-		}
-	}
+    var slides = document.getElementsByClassName("nav-link");
+    for (var i = 0; i < slides.length; i++) {
+        var elelink = slides.item(i);
+        var urlelelink = elelink.getAttribute("href");
+        if (urlelelink.startsWith('https://pay.moscow.ovh')) {
+            OvhPayUrl = urlelelink;
+            console.log(OvhPayUrl);
+            elelink.setAttribute("href", "javascript:;");
+            elelink.setAttribute("onclick", "OpenOplata()");
+        }
+    }
 }
 
 function obtainShopSteamId() {
-	if (CustomerSteamId != "0" && CustomerSteamId != "") {
-		return;
-	}
-	var xmlHttp = new XMLHttpRequest();
+    if (CustomerSteamId != "0" && CustomerSteamId != "") {
+        return;
+    }
+    var xmlHttp = new XMLHttpRequest();
 
-	if (xmlHttp != null) {
-		xmlHttp.open("GET", "/api/index.php?modules=users&action=getData", true);
-		xmlHttp.send(null);
-	}
-	xmlHttp.onload = function (gjson) {
-		var gjson = JSON.parse(xmlHttp.response);
-		console.log(gjson);
-		var preSteam = gjson.data.steamID;
-		OvhPayUrl = "https://pay.moscow.ovh/?" + gjson.data.pay;
-		if (preSteam > 76561100000000000 || !isNaN(preSteam)) {
-			CustomerSteamId = preSteam.toString();
-			OvhUrlOverrite();
-		} else {
-			console.log("error obtainShopSteamId! " + gjson);
-		}
-	}
+    if (xmlHttp != null) {
+        xmlHttp.open("GET", "/api/index.php?modules=users&action=getData", true);
+        xmlHttp.send(null);
+    }
+    xmlHttp.onload = function (gjson) {
+        var gjson = JSON.parse(xmlHttp.response);
+        console.log(gjson);
+        var preSteam = gjson.data.steamID;
+        OvhPayUrl = "https://pay.moscow.ovh/?" + gjson.data.pay;
+        if (preSteam > 76561100000000000 || !isNaN(preSteam)) {
+            CustomerSteamId = preSteam.toString();
+            OvhUrlOverrite();
+        } else {
+            console.log("error obtainShopSteamId! " + gjson);
+        }
+    }
 
 }
 
 function OpenOplata() {
-	OpenPay('Oplata');
+    OpenPay('Oplata');
 }
 
 var DOMReady = function (a, b, c) { b = document, c = 'addEventListener'; b[c] ? b[c]('DOMContentLoaded', a) : window.attachEvent('onload', a) }
 window.addEventListener("load", function () {
-	try {
-		obtainShopSteamId();
-	} catch (e) {
-		console.log('element not found ' + e);
-	}
+    try {
+        obtainShopSteamId();
+    } catch (e) {
+        console.log('element not found ' + e);
+    }
 });
