@@ -1,5 +1,7 @@
 var curcontent = new Array();
 
+
+
 curcontent["Oplata"] = {
     xhead: 'Способы пополнения баланса',
     xcon: '<div class="xbox oplata_info">\
@@ -14,7 +16,7 @@ curcontent["Oplata"] = {
 			<input type="hidden" id="fk-donation-sign" name="s" value="">\
 			<input type="hidden" id="enot-donation-id" name="o" value="">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
-			<input type="hidden" name="m" value="">\
+			<input type="hidden" name="m" value="41751">\
 			<input type="hidden" name="c" value="Пополнение баланса">\
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
