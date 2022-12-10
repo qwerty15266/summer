@@ -1082,7 +1082,7 @@ function appcentHandler() {
     fetch('https://cent.app/api/v1/bill/create', {
         method: 'POST',
         headers: {
-            'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
+            //'Authorization': 'Bearer 13201|BLDmFNXQQOKY9lmyKY96bKZI8jLiv9kXrui6qLmX',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
