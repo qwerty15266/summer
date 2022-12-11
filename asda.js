@@ -949,7 +949,21 @@ function closepagePay() {
     btn_unlocked = 0;
 }
 
-function Open(el, usefade = true, zind = false) {
+function Open(el, usefade = true, zind = false) 
+{
+	const findedSlider = document.getElementsByClassName('slider');
+    if (findedSlider.length == 0) 
+    {
+        const elem = document.createElement('div');
+        const container = document.getElementsByClassName('container')[0];
+        elem.classList.add('slider');
+        let sliderprepare = sliderHtml;
+        elem.innerHTML = sliderprepare;
+
+        container.appendChild(elem);
+        ItcSlider.createInstances();
+    }
+	
     closepage();
     var div1 = document.createElement("div");
     div1.id = 'Modal';
@@ -1585,19 +1599,6 @@ class ItcSlider {
 
 window.onload = function () 
 {
-    const findedSlider = document.getElementsByClassName('slider');
-    if (findedSlider.length == 0) 
-    {
-        const elem = document.createElement('div');
-        const container = document.getElementsByClassName('container')[0];
-        elem.classList.add('slider');
-        let sliderprepare = sliderHtml;
-        elem.innerHTML = sliderprepare;
-
-        container.appendChild(elem);
-        ItcSlider.createInstances();
-    }
-	
     document.body.onclick=function(event)
     {
         if(event.target.id == 'closer')closepage();
