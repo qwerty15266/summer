@@ -1,15 +1,5 @@
 var curcontent = new Array();
 //#region contents
-    sliderImages: [
-      {
-        id: '1',
-        url: 'https://i.imgur.com/Z5PqhLj.png',
-      },
-      {
-        id: '2',
-        url: 'https://i.imgur.com/S9uo75a.jpg',
-      },
-    ],
 	    
 curcontent["rules"] = {
     xhead: 'Правила',
