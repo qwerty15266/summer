@@ -81,10 +81,6 @@
     z-index: 1;
 }
 
-.header__image {
-    display: none;
-}
-
 ul {
     margin-left:0;
     padding-left:0
