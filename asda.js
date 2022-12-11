@@ -1059,17 +1059,15 @@ window.onload = function ()
     }
     curcontent["block"].xcon += '</div>\<br></i></div>';
 	
-    const findedSlider = document.getElementsByClassName('video');
-    if (findedSlider.length == 0) 
+    const finded = document.getElementsByClassName('video');
+    if (finded.length == 0) 
     {
-	const sliderHtml = `
-	<div class="video">
-	<div class="video__gif"></div>
+	const sliderHtml = 
+	`<div class="video__gif"></div>
 	<div class="video__main-bg"></div>
 	<div class="video__bg"></div>
 	<div class="video__bg-1"></div>
-	<div class="video__bg-2"></div>
-	</div>`;
+	<div class="video__bg-2"></div>`;
 	    
         const elem = document.createElement('div');
         const container = document.getElementsByClassName('container')[0];
@@ -1078,7 +1076,6 @@ window.onload = function ()
         elem.innerHTML = sliderprepare;
 
         container.appendChild(elem);
-        ItcSlider.createInstances();
     }
 }
 
