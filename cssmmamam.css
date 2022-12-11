@@ -3,8 +3,13 @@
 
 .header {
     width: 100%;
-    position: relative;
 }
+
+.header__image {
+    width: 1000px;
+}
+
+
 
 .video {
     position: absolute;
