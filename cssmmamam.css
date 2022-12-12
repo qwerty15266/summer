@@ -2496,8 +2496,6 @@ blockquote {
 .store-categories {
     text-align: center;
     margin-bottom: 15px;
-    text-align: center;
-    margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -2506,7 +2504,7 @@ blockquote {
     justify-content: center;
     position: absolute;
     transform: translateX(-149px) rotate(360deg) translateY(0px);
-    top: 70px;
+    top: 20px;
 }
 .store-categories .btn-secondary {
     color:#fff;
