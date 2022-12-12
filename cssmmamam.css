@@ -621,9 +621,6 @@ button,input,optgroup,select,textarea  {
 .nav-link[href="/feedback"],.nav-link[href="/news"]  {
     display:none
 }
-.xbox_store .store-servers  {
-    display:none
-}
 .xbox_store .xbox__header  {
     display:none
 }
