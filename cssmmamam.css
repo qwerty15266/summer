@@ -1074,27 +1074,22 @@ select.form-control:not([size]):not([multiple])  {
 .xserver:nth-child(1) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #dc488a 0%, #dc6648 100%);
     animation:load 2s normal forwards;
-    border-radius: 20px 35px 1px 20px;
 }
 .xserver:nth-child(2) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #4852dc 0%, #48a4dc 100%);
     animation:load 3s normal forwards;
-    border-radius: 20px 35px 1px 20px;
 }
 .xserver:nth-child(3) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #f9bf76 0%, #f39f86 100%);
     animation:load 4s normal forwards;
-    border-radius: 20px 35px 1px 20px;
 }
 .xserver:nth-child(4) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #a88beb 0%, #decef8 100%);
     animation:load 5s normal forwards;
-    border-radius: 20px 35px 1px 20px;
 }
 .xserver:nth-child(5) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #6db3f4 0%, #aed7f0 100%);
     animation:load 6s normal forwards;
-    border-radius: 20px 35px 1px 20px;
 }
 .xserver:nth-child(1) .fa-play:hover {
     color:#dc6648
