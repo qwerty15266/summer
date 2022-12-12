@@ -46,7 +46,7 @@ curcontent["rules"] = {
 
 curcontent["kit-prem"] = {
     xhead: 'Платные киты',
-    xcon: '<div class="store-categories">\
+    xcon: '<div class="store-categories-1">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary active">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -135,7 +135,7 @@ curcontent["kit-prem"] = {
 
 curcontent["kit-elite"] = {
     xhead: 'Платные киты',
-    xcon: '<div class="store-categories">\
+    xcon: '<div class="store-categories-1">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary active">ELITE</button>\
@@ -229,7 +229,7 @@ curcontent["kit-elite"] = {
 
 curcontent["kit-life"] = {
     xhead: 'Платные киты',
-    xcon: '<div class="store-categories">\
+    xcon: '<div class="store-categories-1">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -321,7 +321,7 @@ curcontent["kit-life"] = {
 
 curcontent["kit-rusty"] = {
     xhead: 'Платные киты',
-    xcon: '<div class="store-categories">\
+    xcon: '<div class="store-categories-1">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
@@ -440,7 +440,7 @@ curcontent["kit-rusty"] = {
 
 curcontent["kit-free"] = {
     xhead: 'Стандартные киты',
-    xcon: '<div class="store-categories">\
+    xcon: '<div class="store-categories-1">\
 	<button class="btn btn-secondary active">Стандартные</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-prem\', false);">PREM</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-elite\', false);">ELITE</button>\
