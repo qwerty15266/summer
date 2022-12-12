@@ -1072,23 +1072,23 @@ select.form-control:not([size]):not([multiple])  {
     border-radius:15px
 }
 .xserver:nth-child(1) .xserver__status .progress .bg-success {
-    background:linear-gradient(to right, #904e95 10%, #e96443 90%);
+    background:linear-gradient(to right, #904e95 5%, #e96443 95%);
     animation:load 2s normal forwards;
 }
 .xserver:nth-child(2) .xserver__status .progress .bg-success {
-    background:linear-gradient(to right, #904e95 10%, #e96443 90%);
+    background:linear-gradient(to right, #904e95 5%, #e96443 95%);
     animation:load 3s normal forwards;
 }
 .xserver:nth-child(3) .xserver__status .progress .bg-success {
-    background:linear-gradient(to right, #904e95 10%, #e96443 90%);
+    background:linear-gradient(to right, #904e95 5%, #e96443 95%);
     animation:load 4s normal forwards;
 }
 .xserver:nth-child(4) .xserver__status .progress .bg-success {
-    background:linear-gradient(to right, #904e95 10%, #e96443 90%);
+    background:linear-gradient(to right, #904e95 5%, #e96443 95%);
     animation:load 5s normal forwards;
 }
 .xserver:nth-child(5) .xserver__status .progress .bg-success {
-    background:linear-gradient(to right, #904e95 10%, #e96443 90%);
+    background:linear-gradient(to right, #904e95 5%, #e96443 95%);
     animation:load 6s normal forwards;
 }
 .xserver:nth-child(1) .fa-play:hover {
