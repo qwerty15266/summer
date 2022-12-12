@@ -2506,6 +2506,10 @@ blockquote {
     transform: translateX(-149px) rotate(360deg) translateY(0px);
     top: 20px;
 }
+.store-categories-1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
 .store-categories-1 .btn-secondary {
     color:#fff;
     background:#333;
