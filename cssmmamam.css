@@ -2488,6 +2488,21 @@ blockquote {
 .xbox_custom_block .kit-items {
     border-radius:20px
 }
+.store-categories {
+    text-align: center;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    transform: translateX(-149px) rotate(360deg) translateY(0px);
+    top: 70px;
+}
 .store-categories .btn-secondary {
     color:#fff;
     background:#333;
