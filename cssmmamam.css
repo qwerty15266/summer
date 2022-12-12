@@ -2506,19 +2506,19 @@ blockquote {
     transform: translateX(-149px) rotate(360deg) translateY(0px);
     top: 20px;
 }
-.store-categories .btn-secondary {
+.store-categories-1 .btn-secondary {
     color:#fff;
     background:#333;
     border-color:transparent;
     outline:none !important
 }
-.store-categories .btn-secondary:hover {
+.store-categories-1 .btn-secondary:hover {
     color:#fff;
     background:#bf5660;
     border-color:transparent;
     outline:none !important
 }
-.store-categories .btn-secondary.active,.store-categories .btn-secondary:active,.show > .store-categories .btn-secondary.dropdown-toggle {
+.store-categories-1 .btn-secondary.active,.store-categories-1 .btn-secondary:active,.show > .store-categories-1 .btn-secondary.dropdown-toggle {
     color:#fff;
     background:#bf5660
 }
