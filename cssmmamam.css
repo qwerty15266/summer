@@ -1106,51 +1106,6 @@ select.form-control:not([size]):not([multiple])  {
 .xserver:nth-child(5) .fa-play:hover {
     color:#a8d2f3
 }
-.xserver:nth-child(1) .xserver__title:after {
-    content:"MAX 3 Procedural";
-    font-weight:100;
-    margin-left:4px;
-    font-size:13px;
-    opacity:0.5;
-    transition:all 0.5s ease-out;
-    color:#fff
-}
-.xserver:nth-child(2) .xserver__title:after {
-    content:"MAX 1 Procedural";
-    font-weight:100;
-    margin-left:4px;
-    font-size:13px;
-    opacity:0.5;
-    transition:all 0.5s ease-out;
-    color:#fff
-}
-.xserver:nth-child(3) .xserver__title:after {
-    content:"Trio Barren";
-    font-weight:100;
-    margin-left:4px;
-    font-size:13px;
-    opacity:0.5;
-    transition:all 0.5s ease-out;
-    color:#fff
-}
-.xserver:nth-child(4) .xserver__title:after {
-    content:"Solo Procedural";
-    font-weight:100;
-    margin-left:4px;
-    font-size:13px;
-    opacity:0.5;
-    transition:all 0.5s ease-out;
-    color:#fff
-}
-.xserver:nth-child(5) .xserver__title:after {
-    content:"NoLimit Procedural";
-    font-weight:100;
-    margin-left:4px;
-    font-size:13px;
-    opacity:0.5;
-    transition:all 0.5s ease-out;
-    color:#fff
-}
 .nav-pills .nav-link {
     color:#fff;
     background-color:#262626;
