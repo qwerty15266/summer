@@ -9,9 +9,21 @@
     display: none;
 }
 
-.xbox {
-    margin-bottom: 15px;
-    top: 60px;
+.xbox.xbox_store {
+    top: 90px;
+}
+
+.xbox.xbox_monitoring {
+    top: 90px;
+}
+
+.xbox.xbox_custom-1 {
+    top: 40px;
+}
+
+.xbox.xbox_custom {
+    top: 40px;
+    right: 1px;
 }
 
 ul {
