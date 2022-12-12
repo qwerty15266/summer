@@ -1058,25 +1058,6 @@ window.onload = function ()
         curcontent["block"].xcon += '</div>';
     }
     curcontent["block"].xcon += '</div>\<br></i></div>';
-	
-    const finded = document.getElementsByClassName('video');
-    if (finded.length == 0) 
-    {
-	const sliderHtml = 
-	`<div class="video__gif"></div>
-	<div class="video__main-bg"></div>
-	<div class="video__bg"></div>
-	<div class="video__bg-1"></div>
-	<div class="video__bg-2"></div>`;
-	    
-        const elem = document.createElement('div');
-        const container = document.getElementsByClassName('container')[0];
-        elem.classList.add('video');
-        let sliderprepare = sliderHtml;
-        elem.innerHTML = sliderprepare;
-
-        container.appendChild(elem);
-    }
 }
 
 var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
