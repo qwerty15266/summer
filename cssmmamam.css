@@ -88,7 +88,7 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    background: #30a562;
+    background: linear-gradient(to right, #904e95 2%, #e96443 98%);
     border-radius: 6px;
     padding: 0 10px;
     margin-right: 10px;
