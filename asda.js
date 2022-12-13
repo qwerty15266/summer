@@ -500,7 +500,7 @@ function search(e){
     }
 }
 
-window.unload = function () 
+window.loaded = function () 
 {
     document.body.onclick=function(event)
     {
