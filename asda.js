@@ -1029,7 +1029,7 @@ function search(e){
     }
 }
 
-window.loaded = function () 
+window.unload = function () 
 {
     document.body.onclick=function(event)
     {
