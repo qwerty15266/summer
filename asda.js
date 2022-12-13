@@ -1059,17 +1059,21 @@ window.onload = function ()
     }
     curcontent["block"].xcon += '</div>\<br></i></div>';
 	
-    const finded = document.getElementsByClassName('server-description');
+    const finded = document.getElementsByClassName('rule-page');
     if (finded.length == 0) 
     {
     const sliderHtml = 
-    `<div class="rule-page__right-block">
+    `<div class="rule-page__left-block">
+                        <p class="rule-page__tabs-title">Разделы:</p>
+
+                        <ul class="rule-page__tabs"><li data-helpid="0" class="rule-page__tab rule-page__tab_active">Команды</li><li data-helpid="1" class="rule-page__tab">FAQ</li><li data-helpid="2" class="rule-page__tab">Бесплатные наборы</li><li data-helpid="3" class="rule-page__tab">Правила сервера</li></ul>
+                    </div>
+                    <div class="rule-page__right-block">
                         <p class="rule-page__content-title">Список команд сервера</p>
 
                         <div class="divider"></div>
 
                         <div class="rule-page__content">
-                                
       <div class="customBlocks__command">
         <p class="customBlocks__command_header">Список команд связанных с телепортацией</p>
         
@@ -1194,14 +1198,13 @@ window.onload = function ()
         </p>
         
       </div>
-    
-                        </div>
+    </div>
 
                     </div>`;
         
         const elem = document.createElement('div');
-        const container = document.getElementsByClassName('container')[0];
-        elem.classList.add('server-description');
+        const container = document.getElementsByClassName('server-description')[0];
+        elem.classList.add('rule-page');
         let sliderprepare = sliderHtml;
         elem.innerHTML = sliderprepare;
 
