@@ -504,6 +504,8 @@ window.onload = function () {
 	document.body.onclick=function(event)
 	{
 		if(event.target.id == 'closer')closepage();
+		if(event.target.id == 'closer')closepagePay();
+		if(event.target.className == 'refill-window__close')closepagePay();
 		if(event.target.className == 'MsoCommand')search(event);
 	}
 }
