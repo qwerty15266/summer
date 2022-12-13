@@ -1058,6 +1058,155 @@ window.onload = function ()
         curcontent["block"].xcon += '</div>';
     }
     curcontent["block"].xcon += '</div>\<br></i></div>';
+	
+    const finded = document.getElementsByClassName('server-description');
+    if (finded.length == 0) 
+    {
+    const sliderHtml = 
+    `<div class="rule-page__right-block">
+                        <p class="rule-page__content-title">Список команд сервера</p>
+
+                        <div class="divider"></div>
+
+                        <div class="rule-page__content">
+                                
+      <div class="customBlocks__command">
+        <p class="customBlocks__command_header">Список команд связанных с телепортацией</p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/tpr игрок</span>
+          <span class="customBlocks__command_description"> - Отправить запрос на телепортацию к игроку.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/tpa</span>
+          <span class="customBlocks__command_description"> - Принять запрос на телепортацию.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/tpc</span>
+          <span class="customBlocks__command_description"> - Отменить/отклонить телепортацию.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/sethome название</span>
+          <span class="customBlocks__command_description"> - Установить местоположение дома с указанным названием.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/removehome название</span>
+          <span class="customBlocks__command_description"> - Удалить дом с указанным названием.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/homelist</span>
+          <span class="customBlocks__command_description"> - Показать список ваших домов.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/home название</span>
+          <span class="customBlocks__command_description"> - Телепортироваться на дом с указанным названием.</span>
+        </p>
+        
+      </div>
+    
+      <div class="customBlocks__command">
+        <p class="customBlocks__command_header">Список команд для друзей</p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/friend add игрок</span>
+          <span class="customBlocks__command_description"> - Отправить игроку запрос на дружбу.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/friend remove игрок</span>
+          <span class="customBlocks__command_description"> - Удалить друга.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/friend list</span>
+          <span class="customBlocks__command_description"> - Список ваших друзей.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/friend ff</span>
+          <span class="customBlocks__command_description"> - Включить/выключить урон по друзьям.</span>
+        </p>
+        
+      </div>
+    
+      <div class="customBlocks__command">
+        <p class="customBlocks__command_header">Прочие команды</p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/kit</span>
+          <span class="customBlocks__command_description"> - Меню наборов.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/report</span>
+          <span class="customBlocks__command_description"> - Отправить жалобу на игрока.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/remove</span>
+          <span class="customBlocks__command_description"> - Включение/выключение режима удаления (действует 7 часов после постройки).</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/chat</span>
+          <span class="customBlocks__command_description"> - Узнать доступные команды с чатом.</span>
+        </p>
+        
+      </div>
+    
+      <div class="customBlocks__command">
+        <p class="customBlocks__command_header">Команды уникальных плагинов</p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/copter</span>
+          <span class="customBlocks__command_description"> - Создание коптера.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/q</span>
+          <span class="customBlocks__command_description"> - Квесты.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/lot</span>
+          <span class="customBlocks__command_description"> - Лотерея.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/top</span>
+          <span class="customBlocks__command_description"> - Статистика игроков.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/bonus</span>
+          <span class="customBlocks__command_description"> - Ежедневные подарки.</span>
+        </p>
+        
+          <p class="customBlocks__command_line">
+          <span class="customBlocks__command_value">/case</span>
+          <span class="customBlocks__command_description"> - Кейсы.</span>
+        </p>
+        
+      </div>
+    
+                        </div>
+
+                    </div>`;
+        
+        const elem = document.createElement('div');
+        const container = document.getElementsByClassName('container')[0];
+        elem.classList.add('server-description');
+        let sliderprepare = sliderHtml;
+        elem.innerHTML = sliderprepare;
+
+        container.appendChild(elem);
+    }
 }
 
 var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
