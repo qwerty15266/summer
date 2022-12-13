@@ -502,13 +502,10 @@ function search(e){
 
 window.loaded = function () 
 {
-    document.body.onclick=function(event)
-    {
         if(event.target.id == 'closer')closepage();
         if(event.target.id == 'closer')closepagePay();
         if(event.target.className == 'refill-window__close')closepagePay();
         if(event.target.className == 'MsoCommand')search(event);
-    }
 }
 
 var CustomerSteamId = "0"; // Стандартно 0, для теста указан id
