@@ -20,8 +20,13 @@
 .xbox_monitoring .xbox__header  {
     display:none
 }
+
 .xbox_monitoring .xbox__footer  {
     display:none
+}
+
+.xbox_monitoring .xserver:first-child {
+    border-radius:15px
 }
 
 .xbox.xbox_custom-1 {
