@@ -1075,9 +1075,6 @@ select.form-control:not([size]):not([multiple])  {
 .progress {
     border-radius:20px 20px 20px 20px
 }
-.xbox_monitoring .xserver:first-child {
-    border-radius:15px
-}
 .xserver:nth-child(1) .xserver__status .progress .bg-success {
     background:linear-gradient(to right, #904e95 2%, #e96443 98%);
     animation:load 2s normal forwards;
