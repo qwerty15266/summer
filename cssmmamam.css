@@ -17,6 +17,13 @@
     top: 90px;
 }
 
+.xbox_monitoring .xbox__header  {
+    display:none
+}
+.xbox_monitoring .xbox__footer  {
+    display:none
+}
+
 .xbox.xbox_custom-1 {
     top: 80px;
 }
@@ -635,12 +642,6 @@ button,input,optgroup,select,textarea  {
 .xbox  {
     background:none;
     padding:0px
-}
-.xbox_monitoring .xbox__header  {
-    display:none
-}
-.xbox_monitoring .xbox__footer  {
-    display:none
 }
 .xbox  {
     box-shadow:none
