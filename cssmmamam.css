@@ -1,39 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.header {
-    display: none;
-}
-
-.header__image {
-    display: none;
-}
-
-.xbox.xbox_store {
-    top: 90px;
-}
-
-.xbox.xbox_monitoring {
-    top: 90px;
-}
-
-.xbox_monitoring .xserver:first-child {
-    border-radius:15px
-}
-
-.xbox.xbox_custom-1 {
-    top: 80px;
-}
-
-.xbox.xbox_custom {
-    top: 80px;
-    right: 3px;
-}
-
-.xbox {
-    top: 90px;
-}
-
 ul {
     margin-left:0;
     padding-left:0
