@@ -2671,9 +2671,6 @@ blockquote {
     margin-top:-30px !important;
     color:white
 }
-.xserver:last-child {
-    display:none !important
-}
 .avatar {
     background:transparent
 }
