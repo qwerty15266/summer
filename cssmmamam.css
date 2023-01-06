@@ -3095,9 +3095,6 @@ button#appcent-submit-main {
 span {
     font-family:'Jost', sans-serif
 }
-.product[href="/products/1169808"],.product[href="/products/1169811"],.product[href="/products/1167406"],.product[href="/products/1169805"],.product[href="/products/1169809"],.product[href="/products/1169812"],.product[href="/products/1167454"],.product[href="/products/1169720"] {
-    display:none
-}
 a#container-oplata-prem-14d:hover {
     transform:scale(0.95)
 }
