@@ -43,6 +43,15 @@ li  {
     list-style-position:inside
 }
 
+.store-products__item {
+    width:25%
+}
+@media (max-width:560px) {
+    .store-products__item {
+        width:50%
+    }
+}
+
 .topbar  {
     position: absolute;
     display: block;
