@@ -502,9 +502,11 @@ function search(e){
     }
 }
 
-window.onload = function () {
+window.onload = function () 
+{
 	document.body.onclick=function(event)
 	{
+		document.getElementById("xserver__links").innerHTML = "123 / 250";
 		if(event.target.id == 'closer')closepage();
 		if(event.target.id == 'closer')closepagePay();
 		if(event.target.className == 'refill-window__close')closepagePay();
