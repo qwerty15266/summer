@@ -122,7 +122,6 @@ function UnLockBuyBtn() {
  */
 function OnClickBuyBtn(event)
 {
-	document.getElementById('xserver__links').innerHTML = '123 / 250';
     if (btn_unlocked == 1) {
         var inputval = document.getElementById('refill-window__amount-input').value;
         var inputfloat = parseFloat(inputval);
